@@ -1,0 +1,81 @@
+Const obj = {
+Name: “G”, 
+Key: {
+      Value: “H”;    
+}
+}
+
+Shallow copy:
+Const copyObj = {…obj}       
+Const copyObh = obj.assign({}, obj); 
+Still change the value in nest 
+
+Const copyIbj = JSON.parse(JSON.stringtify(obj));  
+Change the value in nest: 
+Const copyIbj = {
+…obj,
+Key: {
+  …obj.key,  
+}
+}; 
+ 
+lodash 
+const copObj = _.cloneDepp(obj);  
+// thao tac DOM   
+// method in constructor    
+
+Promises, async / await 
+microtask ?  
+callback:
+func print(name, callback) {
+    console.log('name')
+    callback();
+}
+promise:
+let promise = new Promise((resolve, reject) => {
+    if (true) resolve("a=5");
+    else reject("a != 5");
+})
+
+res.then((data) => {
+    console.log(data)
+})
+    .catch((err) => {
+        console.log(err);  
+    })
+    .finally((res) => {
+          
+    })
+
+call API:  
+let promise = new Promise((resolve, reject) => {
+    fetch('http:...') 
+    .then((res) => res.JSON())  
+    .then((data) => {
+        console.log('data');
+    })
+})
+
+promise all: 
+Promise.all([
+    new Promise((resolve) => setTimeout(() => resolve(1), 3000)),
+    new Promise((resolve, reject) => setTimeout(() => resolve(2), 2000)),
+    new Promise((resolve) => setTimeout(() => resolve(3), 1000))
+]).then((res) => console.log(res));  
+// mockapi.io JSON server        
+
+asyn / await:     
+asyn function getData() {
+    const res = await fetch('http...');
+    res.JSON().then((data) => console.log(data)); 
+}
+
+getData();  
+
+microtask:        
+eventLoop   
+
+//homework:
+Backend -> API -> Fetch -> JSON/XML
+-> JSON.parse -> Javascript types
+-> Render ra giao diện với HTML

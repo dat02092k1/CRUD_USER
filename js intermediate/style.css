@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.general {
+    margin: auto;
+    
+}
+
+.header {
+    background-color: #28a745;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.header h2{
+    color: whitesmoke; 
+    padding: 5px 15px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.body_part {
+    margin-left: 10px;
+    width: 100%;
+}
+
+.input-fill{
+    width: 60%;
+}
+
+.user-name-form {
+    display: block;
+} 
+
+.button1 {  
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 14px 2px;
+  cursor: pointer;
+}
+
+.button2 {
+    border: none;
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+#save_btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#reset_btn {
+    background-color: #ffc107;
+}
+
+#edit_btn {
+    background-color: #ffc107; 
+    border: none
+}
+
+#delete_btn {
+    background-color: red; 
+    border: none; 
+    color: white
+}
+
+.thead {
+    background-color: #4CAF50;
+}

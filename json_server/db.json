@@ -1,0 +1,67 @@
+{
+  "students": [
+    {
+      "user_name": "dattie",
+      "full_name": "Ngo Quoc Dat",
+      "email": "ngodat02092001@gmail.com",
+      "birthday": "2001-02-09",
+      "id": 1
+    },
+    {
+      "user_name": "lattie",
+      "full_name": "Latty",
+      "email": "lattie@gmail.com",
+      "birthday": "2000-12-10",
+      "id": 2
+    },
+    {
+      "user_name": "rubbie",
+      "full_name": "Ruby  ",
+      "email": "rubbie@gmail.com",
+      "birthday": "1999-02-05",
+      "id": 3
+    },
+    {
+      "user_name": "nattya",
+      "full_name": "Nattya     ",
+      "email": "natty@gmai.com",
+      "birthday": "2002-02-05",
+      "id": 4
+    },
+    {
+      "user_name": "kattie",
+      "full_name": "Katty",
+      "email": "kattie@gmail.com",
+      "birthday": "2001-02-02",
+      "id": 5
+    },
+    {
+      "user_name": "tam giác",
+      "full_name": "Triangle",
+      "email": "triangle@gmail.com",
+      "birthday": "2001-12-05",
+      "id": 6
+    },
+    {
+      "user_name": "casemiro",
+      "full_name": "Phuc Du",
+      "email": "pd@gmail.com",
+      "birthday": "1998-05-12",
+      "id": 8
+    },
+    {
+      "user_name": "jv",
+      "full_name": "Tran Duc Nam",
+      "email": "jv@gmail.com",
+      "birthday": "2001-10-18",
+      "id": 9
+    },
+    {
+      "user_name": "temp",
+      "full_name": "Temp",
+      "email": "tem@gmail.com",
+      "birthday": "2010-10-10",
+      "id": 10
+    }
+  ]
+}
